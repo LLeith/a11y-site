@@ -133,7 +133,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #ff7f9f !important;
+  background-color: #DC2D64 !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
@@ -149,8 +149,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #ff7f9f !important;
-  border-color: #ff7f9f !important;
+  background-color: #DC2D64 !important;
+  border-color: #DC2D64 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -169,8 +169,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ff7f9f !important;
-  border-color: #ff7f9f !important;
+  background-color: #DC2D64 !important;
+  border-color: #DC2D64 !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -321,14 +321,14 @@ body {
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #ff7f9f;
-  border-color: #ff7f9f;
+  background-color: #DC2D64;
+  border-color: #DC2D64;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff7f9f !important;
-  border-color: #ff7f9f !important;
+  background-color: #DC2D64 !important;
+  border-color: #DC2D64 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -341,14 +341,14 @@ body {
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #ff7f9f;
-  border-color: #ff7f9f;
+  background-color: #DC2D64;
+  border-color: #DC2D64;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff7f9f !important;
-  border-color: #ff7f9f !important;
+  background-color: #DC2D64 !important;
+  border-color: #DC2D64 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -465,10 +465,10 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #ff7f9f !important;
+  color: #DC2D64 !important;
 }
 .text-secondary {
-  color: #ff7f9f !important;
+  color: #DC2D64 !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -537,8 +537,8 @@ a.text-black:focus {
   box-shadow: none !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #ff7f9f;
-  border-color: #ff7f9f;
+  background-color: #DC2D64;
+  border-color: #DC2D64;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -552,7 +552,7 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #ff7f9f;
+  color: #DC2D64;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
@@ -673,7 +673,7 @@ blockquote {
   padding: 10px 0 10px 20px;
   font-size: 1.09rem;
   position: relative;
-  border-color: #ff7f9f;
+  border-color: #DC2D64;
   border-width: 3px;
 }
 ul,
@@ -723,7 +723,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #ff7f9f;
+  border-color: #DC2D64;
   color: #232323;
   cursor: pointer;
 }
@@ -734,7 +734,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #ff7f9f;
+  background: #DC2D64;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -742,11 +742,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #ff7f9f;
+  background: #DC2D64;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #ff7f9f;
+  color: #DC2D64;
 }
 /* Headers*/
 .offset-1 {
@@ -1701,7 +1701,7 @@ body {
   letter-spacing: .2rem;
 }
 .cid-rgE1IHAUk3 .media-container-column {
-  background-color: #FBD5DC;
+  background-color: #DC2D64;
 }
 @media (max-width: 767px) {
   .cid-rgE1IHAUk3 .media-container-column {
@@ -1709,7 +1709,7 @@ body {
   }
 }
 .cid-rgE1IHAUk3 H1 {
-  color:#B72445;
+  color:#550717;
 }
 .cid-rgE1IHAUk3 H3 {
   color: #ffffff;
@@ -2628,4 +2628,15 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #2e2e2e;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
